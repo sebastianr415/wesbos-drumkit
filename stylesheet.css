@@ -1,0 +1,30 @@
+body{
+    background-color:aliceblue;
+    background-image: url()
+}
+.keys{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+kbd{
+    display: block;
+    font-size: 40px;
+}
+.key{
+    text-transform: capitalize;
+    font-size: 1rem;
+    padding: 1rem;
+    border: 5px solid #000;
+    background-color: rgba(231, 213, 213, 0.5);
+    transition:all 1.1s;
+
+}
+.playing{
+    transform:scale(1.1);
+    border-color:cornflowerblue;
+    box-shadow: 0 0 10px cornflowerblue;
+}
